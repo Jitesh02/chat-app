@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  /* background-image: url("./background.png"); */
+  background: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("https://img.freepik.com/premium-vector/seamless-pattern-with-different-social-media-icons_405287-75.jpg");
+  background-position: center;
+  background-size: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
