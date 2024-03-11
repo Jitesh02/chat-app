@@ -12,16 +12,16 @@ const cors = require("cors");
 
 
 
-// const corsOptions = {
-//     origin: "http://localhost:3000" // frontend URI (ReactJS)
-// }
+const corsOptions = {
+    origin: "https://chat-app-6cqn.onrender.com" // frontend URI (ReactJS)
+}
 dotenv.config();
 
 connectDB();
 const app = express();
 
 app.use(express.json());  //to acccept the JSON Data
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
 
 app.use('/api/user', userRoutes);
